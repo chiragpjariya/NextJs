@@ -11,6 +11,7 @@ function About() {
       <Customebtn
         linkText='home'
         linking='/'
+        
       />
       <br/>
       <br/>
