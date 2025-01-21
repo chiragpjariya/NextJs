@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
-function Linking({ linking, Link }) {
-    return (
-        <div>
-            <Link to={linking} className="text-blue-500">{Link}</Link>
-        </div>
-    )
+function Linking({ linking, linkText }) {
+  return (
+    <div>
+      <Link href={linking} className="text-blue-500">
+        {linkText}
+      </Link>
+    </div>
+  );
 }
 
-export default Linking
+export default Linking;
